@@ -1,0 +1,6 @@
+DEBUG    Test:test_case.py:30 ====>{'id': 4.0, 'interfaceUrl': 'https://www.wanandroid.com/user/lg/userinfo/json', 'name': 'getinfo', 'method': 'get', 'value': '{}', 'header': '{"cookie":"${Set-Cookie}"}', 'rely': 'y', 'caseid': 1.0, 'expect': "{'errorCode':'0'}"}
+DEBUG    Test:preSolve.py:51 关键字段：y,1.0,{"cookie":"${Set-Cookie}"},{}
+DEBUG    Test:preSolve.py:57 请求头里面的依赖字段：Set-Cookie,请求体里面依赖的字段：None
+DEBUG    Test:preSolve.py:91 依赖的字段：header:Set-Cookie,body:None
+DEBUG    Test:preSolve.py:92 执行的结果：{"data":{"admin":false,"chapterTops":[],"coinCount":371,"collectIds":[],"email":"","icon":"","id":39103,"nickname":"liusha","password":"","publicName":"liusha","token":"","type":0,"username":"liusha"},"errorCode":0,"errorMsg":""}
+DEBUG    Test:preSolve.py:60 实际请求头里面的依赖字段：JSESSIONID=CAE73E37903B68F9EBC1BE468D5A963C; Path=/; Secure; HttpOnly, loginUserName=liusha; Expires=Mon, 05-Jun-2023 10:21:55 GMT; Path=/, token_pass=5d9b90bcb70640183e09d1e755ead823; Expires=Mon, 05-Jun-2023 10:21:55 GMT; Path=/, loginUserName_wanandroid_com=liusha; Domain=wanandroid.com; Expires=Mon, 05-Jun-2023 10:21:55 GMT; Path=/, token_pass_wanandroid_com=5d9b90bcb70640183e09d1e755ead823; Domain=wanandroid.com; Expires=Mon, 05-Jun-2023 10:21:55 GMT; Path=/,体里面的实际依赖字段：None

@@ -1,0 +1,1 @@
+DEBUG    Test:test_case.py:27 ====>{'id': 3.0, 'interfaceUrl': 'https://www.wanandroid.com/user/logout/json', 'name': 'logout', 'method': 'get', 'value': "{'username':'liusha'}", 'header': '{}', 'expect': '0'}

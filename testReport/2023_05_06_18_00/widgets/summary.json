@@ -1,0 +1,20 @@
+{
+    "reportName": "自动化报告内标题",
+    "testRuns": [],
+    "statistic": {
+        "failed": 5,
+        "broken": 0,
+        "skipped": 0,
+        "passed": 0,
+        "unknown": 0,
+        "total": 5
+    },
+    "time": {
+        "start": 1683367560529,
+        "stop": 1683367564369,
+        "duration": 3840,
+        "minDuration": 231,
+        "maxDuration": 1255,
+        "sumDuration": 3765
+    }
+}

@@ -1,0 +1,1 @@
+日志:Test-级别DEBUG-时间2023-04-27 15:49:22,205-模块test_case.py-第42行:{'id': 3.0, 'interfaceUrl': 'https://www.wanandroid.com/user/logout/json', 'name': 'logout', 'method': 'get', 'value': "{'username':'liusha'}", 'header': '{}', 'expect': '0'}
