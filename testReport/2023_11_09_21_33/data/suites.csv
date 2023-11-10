@@ -1,0 +1,6 @@
+"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
+"broken","Thu Nov 09 21:01:34 CST 2023","Thu Nov 09 21:01:34 CST 2023","1","testCase","test_case","TestCase","","","test_case[dic4]",""
+"broken","Thu Nov 09 21:01:34 CST 2023","Thu Nov 09 21:01:34 CST 2023","0","testCase","test_case","TestCase","","","test_case[dic3]",""
+"broken","Thu Nov 09 21:01:34 CST 2023","Thu Nov 09 21:01:34 CST 2023","1","testCase","test_case","TestCase","","","test_case[dic2]",""
+"broken","Thu Nov 09 21:01:34 CST 2023","Thu Nov 09 21:01:34 CST 2023","11","testCase","test_case","TestCase","","","test_case[dic0]",""
+"broken","Thu Nov 09 21:01:34 CST 2023","Thu Nov 09 21:01:34 CST 2023","1","testCase","test_case","TestCase","","","test_case[dic1]",""
