@@ -39,3 +39,4 @@ if __name__ == '__main__':
     rc = ReadConfig()
     print(rc.get_config("mysql"))
     print(rc.get_config("redis", "port"))
+    print(rc.get_config("url", "base_url"))
