@@ -2,6 +2,8 @@
     2.1.1获取测试数据内进行请求时需要的关键字段
     2.1.2进行请求，获取返回结果
 """
+import json
+
 import requests
 from common.readConfig import ReadConfig
 
@@ -33,10 +35,22 @@ class ConfigHttp:
                            headers=eval(self.dic["header"]))
         return res
 
-    def __post(self):
+    def __post1(self):
         res = requests.post(url=URL+self.dic["interfaceUrl"],
                             data=eval(self.dic["value"]),
                             headers=eval(self.dic["header"]))
+        return res
+
+    def __post(self):
+        content_type = json.loads(self.dic.get('header')).get('Content-Type')
+        if content_type == "application/x-www-form-urlencoded":
+            res = requests.post(url=URL + self.dic["interfaceUrl"],
+                                data=eval(self.dic["value"]),
+                                headers=eval(self.dic["header"]))
+        elif content_type == "application/json":
+            res = requests.post(url=URL + self.dic["interfaceUrl"],
+                                data=eval(self.dic["value"]),
+                                headers=eval(self.dic["header"]))
         return res
 
     def __delete(self):
@@ -45,8 +59,11 @@ class ConfigHttp:
 
 if __name__ == '__main__':
 
-    dic1 = {'id': 1.0, 'interfaceUrl': 'https://www.wanandroid.com/user/login', 'name': 'login', 'method': 'post', 'value': "{'username':'liusha','password':'123456'}", 'header': '{}', 'expect': '0'}
+    dic1 = {'id': 1.0, 'interfaceUrl': '/user/login', 'name': 'login', 'method': 'post', 'value': "{'username':'liusha','password':'123456'}", 'header': '{"Content-Type": "application/x-www-form-urlencoded","cookie":"${Set-Cookie}"}', 'expect': '0'}
     ch = ConfigHttp(dic1)
+    print("========="+dic1["header"])
+
+
     result_data = ch.run()
     print(result_data)
     print(result_data.text)

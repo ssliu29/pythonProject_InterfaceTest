@@ -1,4 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Fri May 05 18:13:58 CST 2023","Fri May 05 18:13:58 CST 2023","407","testCase","test_case","TestCase","","","test_case[dic1]",""
-"passed","Fri May 05 18:13:58 CST 2023","Fri May 05 18:13:59 CST 2023","628","testCase","test_case","TestCase","","","test_case[dic2]",""
-"passed","Fri May 05 18:13:56 CST 2023","Fri May 05 18:13:58 CST 2023","1211","testCase","test_case","TestCase","","","test_case[dic0]",""

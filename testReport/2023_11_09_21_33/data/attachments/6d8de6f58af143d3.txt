@@ -1,2 +1,0 @@
-DEBUG    Test:test_case.py:30 ====>{'id': 1.0, 'interfaceUrl': 'user/login', 'name': 'login', 'method': 'post', 'value': "{'username':'liusha','password':'123456'}", 'header': '{}', 'rely': 'n', 'caseid': '', 'expect': "{'errorCode':'0','username':'liusha'}"}
-DEBUG    Test:preSolve.py:51 关键字段：n,,{},{'username':'liusha','password':'123456'}

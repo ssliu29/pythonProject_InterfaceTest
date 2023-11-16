@@ -1,1 +1,0 @@
-DEBUG    Test:test_case.py:28 ====>{'id': 4.0, 'interfaceUrl': 'https://www.wanandroid.com/user/lg/userinfo/json', 'name': 'getinfo', 'method': 'get', 'value': '{}', 'header': '{"cookie":"${Set-Cookie}"}', 'rely': 'y', 'caseid': 1.0, 'expect': "{'errorCode':'0'}"}

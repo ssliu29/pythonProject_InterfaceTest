@@ -1,1 +1,0 @@
-DEBUG    Test:test_case.py:28 ====>{'id': 5.0, 'interfaceUrl': 'https://www.wanandroid.com/lg/collect/addtool/json', 'name': 'collect', 'method': 'post', 'value': "{'name':'${username}','link':'www.baidu.com'}", 'header': '{"cookie":"${Set-Cookie}"}', 'rely': 'y', 'caseid': 1.0, 'expect': "{'errorCode':'0'}"}

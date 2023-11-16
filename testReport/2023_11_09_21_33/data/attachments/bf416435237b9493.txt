@@ -1,3 +1,0 @@
-DEBUG    Test:test_case.py:30 ====>{'id': 4.0, 'interfaceUrl': 'user/lg/userinfo/json', 'name': 'getinfo', 'method': 'get', 'value': '{}', 'header': '{"cookie":"${Set-Cookie}"}', 'rely': 'y', 'caseid': 1.0, 'expect': "{'errorCode':'0'}"}
-DEBUG    Test:preSolve.py:51 关键字段：y,1.0,{"cookie":"${Set-Cookie}"},{}
-DEBUG    Test:preSolve.py:57 请求头里面的依赖字段：Set-Cookie,请求体里面依赖的字段：None

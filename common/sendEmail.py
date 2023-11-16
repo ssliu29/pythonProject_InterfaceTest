@@ -18,7 +18,7 @@ class SendEmail:
         self.receiver = eval(rc.get_config("email", "receiver"))
         # 发送邮件主题
         t = time.strftime("%Y-%m-%d %H:%M:%S", time.localtime())
-        self.subject = '自动化测试报告' + t
+        self.subject = '接口自动化测试报告' + t
         # 发送邮箱服务器
         self.smtpserver = rc.get_config("email", "smtpserver")
         # 发送邮箱用户/授权码

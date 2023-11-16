@@ -94,7 +94,7 @@ if __name__ == '__main__':
     zip_dir = shutil.make_archive(base_name="./testReport/temp/测试报告", format="zip", root_dir=report)
     print(zip_dir)
     # 发送报告
-    # se = SendEmail()
-    # se.send(zip_dir)
+    se = SendEmail()
+    se.send(zip_dir)
     # 清理报告
     #auto_clear(4)

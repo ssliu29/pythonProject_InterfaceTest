@@ -1,6 +1,0 @@
-"Status","Start Time","Stop Time","Duration in ms","Parent Suite","Suite","Sub Suite","Test Class","Test Method","Name","Description"
-"failed","Sat May 06 18:21:55 CST 2023","Sat May 06 18:21:58 CST 2023","2462","testCase","test_case","TestCase","","","test_case[dic4]",""
-"failed","Sat May 06 18:21:53 CST 2023","Sat May 06 18:21:54 CST 2023","1330","testCase","test_case","TestCase","","","test_case[dic1]",""
-"failed","Sat May 06 18:21:54 CST 2023","Sat May 06 18:21:55 CST 2023","1141","testCase","test_case","TestCase","","","test_case[dic3]",""
-"failed","Sat May 06 18:21:50 CST 2023","Sat May 06 18:21:52 CST 2023","2741","testCase","test_case","TestCase","","","test_case[dic0]",""
-"failed","Sat May 06 18:21:54 CST 2023","Sat May 06 18:21:54 CST 2023","239","testCase","test_case","TestCase","","","test_case[dic2]",""

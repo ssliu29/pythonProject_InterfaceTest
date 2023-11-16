@@ -1,1 +1,0 @@
-DEBUG    Test:test_case.py:28 ====>{'id': 1.0, 'interfaceUrl': 'https://www.wanandroid.com/user/login', 'name': 'login', 'method': 'post', 'value': "{'username':'liusha','password':'123456'}", 'header': '{}', 'rely': 'n', 'caseid': '', 'expect': "{'errorCode':'0','username':'liusha'}"}
