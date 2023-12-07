@@ -61,7 +61,7 @@ def config_title(name, file_path):
         # 将修改后的字典写入到文件内
         json.dump(dict1, r, ensure_ascii=False, indent=4)
 
-# 全部报告：
+# 清理报告：
 def auto_clear(n):
     # 删除临时文件目录
     shutil.rmtree(os.path.dirname(__file__)+r"/testReport/temp")
@@ -87,8 +87,8 @@ if __name__ == '__main__':
     set_window_title("接口自动化测试报告", report)
     # 修改报告内标题
     config_title("自动化报告内标题", report)
-    # 创建一个查看结果的插件
-    with open(report+r"/请点我打开报告.bat", "w", encoding="utf-8") as f:
+    # 创建一个查看结果的插件（window是.bat文件，Mac是.bash文件）
+    with open(report+r"/请点我打开报告.bash", "w", encoding="utf-8") as f:
         f.write(r"allure open ./")
     # 将报告压缩成zip包，并返回压缩的完的路径
     zip_dir = shutil.make_archive(base_name="./testReport/temp/测试报告", format="zip", root_dir=report)

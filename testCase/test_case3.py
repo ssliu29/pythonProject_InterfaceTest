@@ -1,4 +1,4 @@
-# import pytest
+import pytest
 #
 # lists=[1,2,3,4]
 # class TestApi:
@@ -11,7 +11,10 @@
 #     def test_case2(self,num1,num2):
 #         print(f"测试数据参数：{num1}:{num2}")
 #         assert  num1 == num2,"这两个数不相等"
-#
+
+
+
 # if __name__ == '__main__':
-#     pytest.main(["-"])
+#     pytest.main(['-vs', 'test_case3.py'])
+
 
